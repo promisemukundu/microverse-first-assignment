@@ -1,0 +1,151 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.page-header {
+  background-color: #1f2937;
+  padding-bottom: 290px;
+  color: white;
+}
+
+.pr-15 {
+  padding-right: 15%;
+}
+
+.pl-15 {
+  padding-left: 15%;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.page-header .navbar {
+  padding-bottom: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-header .navbar ul {
+  list-style: none;
+  gap: 10px;
+}
+
+.page-header .navbar ul a,
+.page-header .hero p {
+  font-size: 18px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.page-header .hero {
+  gap: 10px;
+}
+
+.page-header .hero > div {
+  height: 100px;
+  flex: 1;
+}
+
+.page-header button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 8px;
+  border-color: #3882f6;
+  padding: 10px 25px;
+  font-size: 18px;
+}
+
+.page-header .navbar h2 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.page-header .hero h1 {
+  color: #f9faf8;
+  font-weight: extra-bold;
+  font-size: 48px;
+}
+
+.random-information {
+  text-align: center;
+  font-weight: bolder !important;
+  font-size: 20px;
+  padding: 80px;
+  background-color: white;
+  color: black;
+}
+.random-information .images {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 30px;
+}
+
+.random-information button {
+  border-color: #3882f6;
+  width: 100%;
+  padding: 80px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.pl-20 {
+  padding-left: 20%;
+}
+.pr-20 {
+  padding-right: 20%;
+}
+
+.fs-18 p {
+  font-size: 18px;
+}
+
+.qoute {
+  background-color: #e5e7eb;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  flex-direction: column;
+}
+
+.qoute blockquote {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.pl-25 {
+  padding-left: 125px;
+}
+.pr-25 {
+  padding-right: 125px;
+}
+
+.qoute cite {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  text-align: right;
+}
+
+.footer {
+  background-color: #3882f6;
+  margin: 80px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: white;
+  justify-content: space-between;
+}
+
+.footer button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 5px;
+  border-color: white;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+}
